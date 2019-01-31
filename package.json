@@ -1,0 +1,42 @@
+{
+  "name": "CoinTracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^4.0.0-beta",
+    "chart.js": "^2.7.1",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "js-cookie": "^2.1.4",
+    "jsonwebtoken": "^8.1.0",
+    "material-ui": "^0.19.4",
+    "passport": "^0.4.0",
+    "passport-idaas-openidconnect": "^2.0.1",
+    "popper.js": "^1.12.6",
+    "react": "^16.0.0",
+    "react-chartjs-2": "^2.6.4",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^5.0.0-alpha.3",
+    "redux": "^3.7.2",
+    "bluemix-autoscaling-agent": "*",
+    "redux-promise-middleware": "^4.4.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node -r bluemix-autoscaling-agent app.js",
+    "react_start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "6.7.0",
+    "npm": "3.10.3"
+  }
+}

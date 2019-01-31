@@ -1,0 +1,198 @@
+$blueCiciColor: #2B97F0;
+$grayBackGround: #F2F3EE;
+$blueButtonColor: #025aa5;
+$blueButtonHover: #01549b;
+//solid colors
+$darkNavy:#1B2834;
+$blue:#019CF6;
+$offWhite:#f2f3EE;
+$purple:#7732BB;
+$teal:#00BEB8;
+$grey:#464646;
+$white:#FFFFFF;
+$black:#000000;
+$orange:#F6851F;
+//colors with 0.5 opacity
+$darkNavyHover:rgba(27,40,52,0.5);
+$blueHover:rgba(0,155,239,0.5);
+$offWhiteHover:rgba(242,243,238,0.5);
+$purpleHover:rgba(119,50,187,0.5);
+$tealHover:rgba(0,190,184,0.5);
+$greyHover:rgba(70,70,70,0.5);
+$whiteHover:rgba(255,255,255,0.5);
+$orangeHover:rgba(246,133,31,0.5);
+//default text color
+$default-text: $grey;
+//help text when background is light
+$text-bg-light: $blue;
+//help text when background is dark
+$text-bg-dark: $white;
+//default text color
+$default-text: $grey;
+//hyperlinks text color
+$hyperlink-color: $blue;
+$hyperlink-hover-color: $blueHover;
+
+@font-face {
+    font-family: helveticaNeueRegular;
+    src: url(../fonts/HelveticaNeue/HelveticaNeueLTPro-Roman.otf);
+}
+@font-face {
+    font-family: helveticaNeueLight;
+    src: url(../fonts/HelveticaNeue/HelveticaNeueLTPro-Lt.otf);
+}
+@font-face {
+    font-family: IBMPlexSansRegular;
+    src: url(../fonts/IBMPlexSans/IBMPlexSans-Regular-V01.1.ttf);
+}
+@font-face {
+    font-family: IBMPlexSansLight;
+    src: url(../fonts/IBMPlexSans/IBMPlexSans-ExtraLight-V01.1.ttf);
+}
+.body{
+  font-family: IBMPlexSansRegular;
+}
+.HelveticaNeue-font{
+  font-family: helveticaNeueRegular !important;
+}
+.regular-font{
+  font-family: IBMPlexSansRegular;
+}
+.light-font{
+  font-family: IBMPlexSansLight !important;
+}
+.italic-font{
+  font-style: italic !important;
+}
+.bold-font{
+  font-weight: bold !important;
+}
+.chat-logo-size{
+  width: 100px;
+  height: 100px;
+}
+.text-background-light{
+  color: $text-bg-light !important;
+}
+.text-background-dark{
+  color: $text-bg-dark;
+}
+.text-light-grey{
+  color: #b3b3b3 !important;
+}
+.text-white{
+  color:$white;
+}
+.text-default{
+  color: $default-text;
+}
+.link-color, .link-color:visited{
+  cursor: pointer;
+  color: $hyperlink-color !important;
+  text-decoration: none !important;
+}
+.link-color:hover, .link-color:active{
+  cursor: pointer;
+  color: $hyperlink-hover-color !important;
+  text-decoration: none !important;
+}
+.backgroundColor {
+  background-color: $grayBackGround;
+}
+.line-height-17{
+  line-height: 17px !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.questionButtons {
+  width: 300px;
+
+}
+.right-divider{
+  border-right-style: solid;
+  border-right-color: #b3b3b3;
+  border-right-width: 1px;
+}
+.selector-noshadow {
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	}
+.background-transparent{
+  background-color: transparent !important;
+}
+.margin-negative-12{
+  margin:-12px !important;
+}
+.top20vh {
+  top: 20vh;
+}
+
+.marginTop50px {
+  margin-top: 50px;
+}
+
+.btn-primary {
+    background-color: $blueCiciColor !important;
+    border-color: $blueCiciColor !important;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: $blueButtonColor !important;
+    border-color: $blueButtonHover !important;
+}
+
+.btn-outline-primary {
+    color: $blueCiciColor !important;
+    border-color: $blueCiciColor !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: gray !important;
+    border-color: gray !important;
+}
+.icon-flat-btn{
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  pointer-events: none;
+
+}
+.margin-top-negative-20{
+  margin-top: -20px !important;
+}
+.padding-top-bot-16{
+  padding-top: 16px !important;
+  padding-bottom : 16px !important;
+}
+.background-dark-navy{
+  background-color: $darkNavy !important;
+}
+.margin-top-12{
+  margin-top: 12px;
+}
+.block h3 {
+  color: black;
+  text-decoration: none;
+}
+.block h3:hover {
+  color: black;
+  text-decoration: none;
+}
+.containerPadding{
+  padding-top:25px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:15px;
+}
+
+.titlePadding{
+  padding-left:15px;
+}
